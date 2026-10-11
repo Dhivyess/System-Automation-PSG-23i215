@@ -1,10 +1,10 @@
-[2026-10-10 16:08:34] RULE: HIGH_VIBRATION | ACTION: INSPECT_MACHINE | READINGS: {'temperature': 64.08, 'pressure': 1.05, 'vibration': 3.74, 'current': 18}
-[2026-10-10 16:08:35] RULE: NO_RULE_FIRED | ACTION: CONTINUE_NORMAL | READINGS: {'temperature': 53.14, 'pressure': 3.61, 'vibration': 1.14, 'current': 17}
-[2026-10-10 16:08:35] RULE: HIGH_VIBRATION | ACTION: INSPECT_MACHINE | READINGS: {'temperature': 51.81, 'pressure': 2.78, 'vibration': 4.26, 'current': 11}
-[2026-10-10 16:08:35] RULE: HIGH_VIBRATION | ACTION: INSPECT_MACHINE | READINGS: {'temperature': 65.34, 'pressure': 1.37, 'vibration': 4.75, 'current': 19}
-[2026-10-10 16:08:35] RULE: HIGH_TEMP | ACTION: STOP_MACHINE | READINGS: {'temperature': 90.94, 'pressure': 1.15, 'vibration': 3.2, 'current': 14}
-[2026-10-10 16:08:35] RULE: HIGH_VIBRATION | ACTION: INSPECT_MACHINE | READINGS: {'temperature': 59.66, 'pressure': 2.56, 'vibration': 4.64, 'current': 8}
-[2026-10-10 16:08:36] RULE: HIGH_VIBRATION | ACTION: INSPECT_MACHINE | READINGS: {'temperature': 75.93, 'pressure': 3.99, 'vibration': 3.38, 'current': 9}
-[2026-10-10 16:08:36] RULE: HIGH_TEMP | ACTION: STOP_MACHINE | READINGS: {'temperature': 90.19, 'pressure': 7.11, 'vibration': 4.39, 'current': 15}
-[2026-10-10 16:08:36] RULE: HIGH_TEMP | ACTION: STOP_MACHINE | READINGS: {'temperature': 82.59, 'pressure': 1.53, 'vibration': 2.42, 'current': 8}
-[2026-10-10 16:08:36] RULE: HIGH_PRESSURE | ACTION: STOP_MACHINE | READINGS: {'temperature': 73.72, 'pressure': 8.24, 'vibration': 0.24, 'current': 17}
+[2026-10-11 16:38:56] RULE: HIGH_TEMP | ACTION: STOP_MACHINE | ML_PRED: LOW_PRESSURE | READINGS: {'temperature': 90.47, 'pressure': 1.88, 'vibration': 1.48, 'rpm': 2395, 'current': 13.72}
+[2026-10-11 16:38:57] RULE: HIGH_PRESSURE | ACTION: STOP_MACHINE | ML_PRED: HIGH_VIBRATION | READINGS: {'temperature': 55.03, 'pressure': 7.54, 'vibration': 4.13, 'rpm': 1540, 'current': 12.87}
+[2026-10-11 16:38:57] RULE: HIGH_PRESSURE | ACTION: STOP_MACHINE | ML_PRED: MOTOR_OVERLOAD | READINGS: {'temperature': 57.08, 'pressure': 9.81, 'vibration': 4.03, 'rpm': 1648, 'current': 19.63}
+[2026-10-11 16:38:57] RULE: HIGH_TEMP | ACTION: STOP_MACHINE | ML_PRED: OVERHEATING | READINGS: {'temperature': 94.57, 'pressure': 7.7, 'vibration': 2.16, 'rpm': 653, 'current': 9.04}
+[2026-10-11 16:38:57] RULE: HIGH_PRESSURE | ACTION: STOP_MACHINE | ML_PRED: NORMAL | READINGS: {'temperature': 69.11, 'pressure': 8.14, 'vibration': 2.62, 'rpm': 3492, 'current': 11.95}
+[2026-10-11 16:38:57] RULE: HIGH_PRESSURE | ACTION: STOP_MACHINE | ML_PRED: NORMAL | READINGS: {'temperature': 70.28, 'pressure': 7.15, 'vibration': 2.88, 'rpm': 1946, 'current': 15.8}
+[2026-10-11 16:38:58] RULE: HIGH_PRESSURE | ACTION: STOP_MACHINE | ML_PRED: MOTOR_OVERLOAD | READINGS: {'temperature': 70.27, 'pressure': 7.99, 'vibration': 0.66, 'rpm': 1773, 'current': 19.51}
+[2026-10-11 16:38:58] RULE: HIGH_PRESSURE | ACTION: STOP_MACHINE | ML_PRED: MOTOR_OVERLOAD | READINGS: {'temperature': 63.38, 'pressure': 4.08, 'vibration': 2.75, 'rpm': 3469, 'current': 17.35}
+[2026-10-11 16:38:58] RULE: HIGH_PRESSURE | ACTION: STOP_MACHINE | ML_PRED: NORMAL | READINGS: {'temperature': 56.64, 'pressure': 4.86, 'vibration': 2.26, 'rpm': 533, 'current': 6.54}
+[2026-10-11 16:38:58] RULE: NO_RULE_FIRED | ACTION: CONTINUE_NORMAL | ML_PRED: LOW_PRESSURE | READINGS: {'temperature': 60.56, 'pressure': 3.71, 'vibration': 0.43, 'rpm': 3207, 'current': 11.58}
